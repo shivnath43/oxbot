@@ -1,0 +1,36 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://www.poing.de/fileadmin/templates/img/wappen_poing_arial.png",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome To Waste Management Bot!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "Now Type anything you want to know ! What goes where! Ex. Where to dispose CardBoard",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "To Know More Get PDF Poing Gov.",
+      "url": "https://www.poing.de/fileadmin/eigene_dateien/05_Bauen_Umwelt/Abfall_Wertstoffe/Muellfibel_Oktober_2018.pdf"
+    }
+  ]
+}

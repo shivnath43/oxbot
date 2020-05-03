@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "channels_WebChatChannel_enablePreview": {
+            "value": null
+        },
+        "channels_WebChatChannel_enablePreview_1": {
+            "value": null
+        },
+        "sites_oxbot_name": {
+            "value": null
+        },
+        "serverfarms_oxbot_name": {
+            "value": null
+        },
+        "botServices_ox_bot_name": {
+            "value": null
+        },
+        "components_ox_botlbvwxm_name": {
+            "value": null
+        },
+        "accounts_oxluis_name": {
+            "value": null
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___ox_botlbvwxm_name": {
+            "value": null
+        }
+    }
+}
